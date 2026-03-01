@@ -2,7 +2,5 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Agriculture Analysis Criteria', {
-	refresh: function(frm) {
-
-	}
-});
+	refresh: function (frm) {},
+})

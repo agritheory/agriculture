@@ -1,12 +1,15 @@
+# Copyright (c) 2026, Frappe Technologies, AgriTheory and contributors
+# For license information, please see license.txt
+
 from . import __version__ as app_version
 
 app_name = "agriculture"
 app_title = "Agriculture"
-app_publisher = "Frappe"
+app_publisher = "AgriTheory"
 app_description = "Agriculture"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "pandikunta@frappe.io"
+app_email = "support@agritheory.dev"
 app_license = "MIT"
 
 
@@ -47,7 +50,7 @@ required_apps = ["erpnext"]
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# 	"Role": "home_page"
 # }
 
 # Generators
@@ -112,7 +115,7 @@ required_apps = ["erpnext"]
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-#	}
+# 	}
 # }
 
 # Scheduled Tasks
@@ -193,20 +196,19 @@ required_apps = ["erpnext"]
 
 global_search_doctypes = {
 	"Agriculture": [
-		{'doctype': 'Weather', 'index': 1},
-		{'doctype': 'Soil Texture', 'index': 2},
-		{'doctype': 'Water Analysis', 'index': 3},
-		{'doctype': 'Soil Analysis', 'index': 4},
-		{'doctype': 'Plant Analysis', 'index': 5},
-		{'doctype': 'Agriculture Analysis Criteria', 'index': 6},
-		{'doctype': 'Disease', 'index': 7},
-		{'doctype': 'Crop', 'index': 8},
-		{'doctype': 'Fertilizer', 'index': 9},
-		{'doctype': 'Crop Cycle', 'index': 10}
+		{"doctype": "Weather", "index": 1},
+		{"doctype": "Soil Texture", "index": 2},
+		{"doctype": "Water Analysis", "index": 3},
+		{"doctype": "Soil Analysis", "index": 4},
+		{"doctype": "Plant Analysis", "index": 5},
+		{"doctype": "Agriculture Analysis Criteria", "index": 6},
+		{"doctype": "Disease", "index": 7},
+		{"doctype": "Crop", "index": 8},
+		{"doctype": "Fertilizer", "index": 9},
+		{"doctype": "Crop Cycle", "index": 10},
 	]
 }
 
 domains = {
-	'Agriculture': 'agriculture.agriculture.agriculture',
+	"Agriculture": "agriculture.agriculture.agriculture",
 }
-

@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Fertilizer', {
-	onload: (frm) => {
-		if (frm.doc.fertilizer_contents == undefined) frm.call('load_contents');
-	}
-});
+	onload: frm => {
+		if (frm.doc.fertilizer_contents == undefined) frm.call('load_contents')
+	},
+})
