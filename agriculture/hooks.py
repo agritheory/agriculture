@@ -5,7 +5,7 @@ from . import __version__ as app_version
 
 app_name = "agriculture"
 app_title = "Agriculture"
-app_publisher = "AgriTheory"
+app_publisher = "Frappe Technologies, AgriTheory"
 app_description = "Agriculture"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"

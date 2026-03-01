@@ -1,3 +1,6 @@
+<!-- Copyright (c) 2026, AgriTheory and contributors
+For license information, please see license.txt-->
+
 ## Agriculture
 
 The Agriculture Domain of ERPNext comes with features to record crops and land, track plant, soil, water, weather analytics, and even track diseases and fertilizers. You can check out the following topics after this brief introduction to the agriculture module in ERPNext.
